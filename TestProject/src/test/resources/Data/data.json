@@ -1,0 +1,12 @@
+{
+"incomeDetail":{
+   "amount" : "1000" ,
+   "note": "salary of the month"
+},
+
+"expenseDetail": {
+"amountExpense": "40", 
+"noteExpense": "Fuel"
+}
+
+}
