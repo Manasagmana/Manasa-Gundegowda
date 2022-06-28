@@ -1,0 +1,78 @@
+Device used: Redmi note 6 pro
+
+Pro features are not tested.
+
+CHARTER:
+Analyse Monefy app functionalities and report the issues and areas of potential risk.
+
+AREAS:
+Platform: Android
+Strategy: Exploratory testing
+
+Test Notes:
+Below features are tested in the app.
+1.Onboarding
+2.Homepage
+3.Expense
+4.Income
+5.Categories Page
+6.Menu page - Top Left
+7.Search page
+8.Transfer
+9.3 dot options
+>Categories
+>Account
+>Settings
+
+Priorotisation:
+1. Checking Income and expense features as it is the basic functionality of the app.
+2.Transfer feature
+3.Budget mode
+4.Currency
+5.Export to file
+6.Synchronisation
+7.Data backup
+8.Different payment methods
+9.Search 
+
+BUGS:
+
+BUG1:
+When the language is changed, it shows the language is changed but it still displays content in English.
+
+BUG2:
+Review Application is navigating to the device app store where the user has no place to review.
+
+BUG3:
+When cleared data, budget added is still shown to the user.
+
+BUG4:
+CSV file opens small window with incomplete details when opened in laptop.
+
+BUG5:
+When search for "House" category and opened, it displays the transfer history.
+
+BUG6:
+When the budget is changed, keypad remains open.
+
+BUG7:
+Savings added is not displayed in the Pie chart.
+
+ISSUES:
+
+Issue1:
+User is allowed to select currency from Setting ->General settings->Currency. But when the user tries to select currency form Currency section(From 3 dot option) app requests for Pro membership.
+
+Issue2:
+Changing language asks for pro membership but still the language changes
+
+Issue3:
+Restore data asks for Pro but it still restores.
+
+Issue4:
+In All accounts it displays the budget, not the overall amount.
+
+Issue5:
+The amount calculated for week and Day is not with respect to number of days in a month.
+
+
